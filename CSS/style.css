@@ -1,0 +1,113 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 5vw 0 5vw;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.navbar-items {
+    font-size: 13px;
+    margin: 2vw;
+    color: black;
+    text-decoration-line: none;
+    align-self: center;
+}
+
+.say-hello-btn {
+    color: white;
+    background-color: black;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+.home {
+    position: relative;
+}
+
+.home-columns {
+    height: 500px;
+
+}
+
+.home-left-text {
+    font-size: 40px;
+    align-self: center;
+    justify-content: center;
+}
+
+.home-left-small-text {
+    font-size: 14px;
+}
+
+.home-left-container {
+    height: 500px;
+    display: flex;
+}
+
+.test {
+    align-self: center;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    height: 500px;
+    display: flex;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 100px;
+}
+
+.placeholder-text {
+    align-self: center;
+}
+
+.contact {
+    /* position: absolute; */
+    padding: 30px;
+    margin: 100px 0;
+    /* margin: 0; */
+    height: 500px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    /* transform: skewX(10deg) */
+}
+
+.field {
+    padding: 0px 10px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 20px;
+    width: 50%;
+    line-height: 45px;
+    border-radius: 6px;
+    border: 1.5px solid #F2F2F2;
+    margin: 10px 0px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .home-left-container {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
